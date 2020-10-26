@@ -1,0 +1,6 @@
+framework module Pods_YFOCToolTests {
+  umbrella header "Pods-YFOCToolTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

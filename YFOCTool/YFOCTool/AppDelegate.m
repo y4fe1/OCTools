@@ -15,26 +15,40 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor redColor];
+    [self.window makeKeyAndVisible];
+    [self setTabbar];
+    
     return YES;
+}
+
+- (void)setTabbar{
+    
+    UITabBarController *tabbarController = [UITabBarController new];
+    
+    NSArray *tabbarArr = @[@{@"title":@"First",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Second",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Third",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Fourth",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Fifth",@"normalImg":@"",@"selecedtImg":@""}];
+    
+    for (NSDictionary *dic in tabbarArr) {
+        UIViewController *vc = [UIViewController new];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        nav.tabBarItem.title = dic[@"title"];
+        vc.title = dic[@"title"];
+//        nav.navigationBar.backgroundColor = [UIColor blueColor];
+        nav.tabBarItem.image = [UIImage imageNamed:dic[@"normalImg"]];
+        nav.tabBarItem.selectedImage = [UIImage imageNamed:dic[@"selecedtImg"]];
+        tabbarController.selectedViewController = tabbarController.viewControllers.firstObject;
+        [tabbarController addChildViewController:nav];
+    }
+    self.window.rootViewController = tabbarController;
 }
 
 
 #pragma mark - UISceneSession lifecycle
 
 
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
-}
-
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
 
 
 @end
