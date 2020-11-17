@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YFTools : NSObject
 + (BOOL)isBangDevice;
++ (NSString *)getDeviceModelName;
 @end
 
 NS_ASSUME_NONNULL_END

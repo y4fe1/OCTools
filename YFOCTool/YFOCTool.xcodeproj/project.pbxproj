@@ -16,6 +16,7 @@
 		1880BA912546B30B009577DC /* YFOCToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880BA902546B30B009577DC /* YFOCToolTests.m */; };
 		1880BA9C2546B30B009577DC /* YFOCToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880BA9B2546B30B009577DC /* YFOCToolUITests.m */; };
 		1899FB0B256368CA00169E77 /* YFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899FB0A256368CA00169E77 /* YFTools.m */; };
+		1899FB142563701F00169E77 /* YFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899FB132563701F00169E77 /* YFDeviceInfo.m */; };
 		71B2286929BF02A3CD3F9C11 /* Pods_YFOCTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0745C00AEDDC8BE377513 /* Pods_YFOCTool.framework */; };
 		B00F459770D7FFAB40A38219 /* Pods_YFOCTool_YFOCToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D23241A128D694FD998740 /* Pods_YFOCTool_YFOCToolUITests.framework */; };
 		D21B10AF1D5DDD5EFB21260B /* Pods_YFOCToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BED2B2A391507E0B0F1F713 /* Pods_YFOCToolTests.framework */; };
@@ -59,6 +60,8 @@
 		1899FB0825635ECC00169E77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1899FB09256368CA00169E77 /* YFTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTools.h; sourceTree = "<group>"; };
 		1899FB0A256368CA00169E77 /* YFTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTools.m; sourceTree = "<group>"; };
+		1899FB122563701F00169E77 /* YFDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFDeviceInfo.h; sourceTree = "<group>"; };
+		1899FB132563701F00169E77 /* YFDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFDeviceInfo.m; sourceTree = "<group>"; };
 		19D23241A128D694FD998740 /* Pods_YFOCTool_YFOCToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFOCTool_YFOCToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25468DD4FE66B2C37C7EE588 /* Pods-YFOCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCTool.release.xcconfig"; path = "Target Support Files/Pods-YFOCTool/Pods-YFOCTool.release.xcconfig"; sourceTree = "<group>"; };
 		30866802382B47AA3E1EC388 /* Pods-YFOCToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCToolTests.debug.xcconfig"; path = "Target Support Files/Pods-YFOCToolTests/Pods-YFOCToolTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 			children = (
 				1899FB09256368CA00169E77 /* YFTools.h */,
 				1899FB0A256368CA00169E77 /* YFTools.m */,
+				1899FB122563701F00169E77 /* YFDeviceInfo.h */,
+				1899FB132563701F00169E77 /* YFDeviceInfo.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1899FB142563701F00169E77 /* YFDeviceInfo.m in Sources */,
 				1899FB0B256368CA00169E77 /* YFTools.m in Sources */,
 				1880BA7C2546B307009577DC /* ViewController.m in Sources */,
 				1880BA762546B307009577DC /* AppDelegate.m in Sources */,

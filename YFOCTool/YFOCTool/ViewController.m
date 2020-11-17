@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import <UIImageView+WebCache.h>
+#import "YFDeviceInfo.h"
 
 @interface ViewController ()
 
@@ -23,7 +24,8 @@
     NSArray *aaa = @[@"2",@"3"];
     NSLog(@"ddddddd%d",[aaa containsObject:@"2"]);
     
-    
+    YFDeviceInfo *ids = [YFDeviceInfo new];
+    YFDeviceInfo *ids3 = [ids copy];
 }
 
 

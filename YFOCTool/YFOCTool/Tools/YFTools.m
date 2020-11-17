@@ -12,6 +12,26 @@
 @implementation YFTools
 
 
+//+ (NSInteger)navBarAndStatusHeight{
+//    return [self isBangDevice] ? 88 : 64;
+//}
+//
+//+ (NSInteger)navBarHeight{
+//    return 44;
+//}
+//
+//+ (NSInteger)statusBarHeight{
+//    return [self isBangDevice] ? 44 : 20;
+//}
+//
+//+ (NSInteger)saveAreaHeight{
+//    return [self isBangDevice] ? 34 : 0;
+//}
+//
+//+ (NSInteger)tabbarHeight{
+//    return [self saveAreaHeight] + 49;
+//}
+
 + (BOOL)isBangDevice{
     NSString *modelName = [self getDeviceModelName];
     
