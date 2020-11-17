@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -32,14 +33,14 @@
     NSArray *tabbarArr = @[@{@"title":@"First",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Second",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Third",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Fourth",@"normalImg":@"",@"selecedtImg":@""},@{@"title":@"Fifth",@"normalImg":@"",@"selecedtImg":@""}];
     
     for (NSDictionary *dic in tabbarArr) {
-        UIViewController *vc = [UIViewController new];
+        UIViewController *vc = [ViewController new];
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
         nav.tabBarItem.title = dic[@"title"];
         vc.title = dic[@"title"];
 //        nav.navigationBar.backgroundColor = [UIColor blueColor];
         nav.tabBarItem.image = [UIImage imageNamed:dic[@"normalImg"]];
         nav.tabBarItem.selectedImage = [UIImage imageNamed:dic[@"selecedtImg"]];
-        tabbarController.selectedViewController = tabbarController.viewControllers.firstObject;
+//        tabbarController.selectedViewController = tabbarController.viewControllers.firstObject;
         [tabbarController addChildViewController:nav];
     }
     self.window.rootViewController = tabbarController;
