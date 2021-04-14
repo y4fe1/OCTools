@@ -34,7 +34,7 @@
     
     for (NSDictionary *dic in tabbarArr) {
         UIViewController *vc = [ViewController new];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        YFCustomNavController *nav = [[YFCustomNavController alloc] initWithRootViewController:vc];
         nav.tabBarItem.title = dic[@"title"];
         vc.title = dic[@"title"];
 //        nav.navigationBar.backgroundColor = [UIColor blueColor];

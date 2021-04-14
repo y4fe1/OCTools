@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18779245259B238B00FE0E58 /* YFCustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18779244259B238B00FE0E58 /* YFCustomNavController.m */; };
 		1880BA762546B307009577DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880BA752546B307009577DC /* AppDelegate.m */; };
 		1880BA7C2546B307009577DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880BA7B2546B307009577DC /* ViewController.m */; };
 		1880BA7F2546B307009577DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1880BA7D2546B307009577DC /* Main.storyboard */; };
@@ -17,9 +18,11 @@
 		1880BA9C2546B30B009577DC /* YFOCToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880BA9B2546B30B009577DC /* YFOCToolUITests.m */; };
 		1899FB0B256368CA00169E77 /* YFTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899FB0A256368CA00169E77 /* YFTools.m */; };
 		1899FB142563701F00169E77 /* YFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899FB132563701F00169E77 /* YFDeviceInfo.m */; };
+		189D237D2626815F008E29A9 /* YFLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D237C2626815F008E29A9 /* YFLogic.m */; };
+		18A4E7E42567623A00817FFE /* UILabel+JXCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E7DE2567623A00817FFE /* UILabel+JXCustomLabel.m */; };
+		18A4E7E52567623A00817FFE /* UIButton+JXCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E7E02567623A00817FFE /* UIButton+JXCustomButton.m */; };
+		18A4E7E62567623A00817FFE /* UIView+JXCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E7E32567623A00817FFE /* UIView+JXCustomView.m */; };
 		71B2286929BF02A3CD3F9C11 /* Pods_YFOCTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0745C00AEDDC8BE377513 /* Pods_YFOCTool.framework */; };
-		B00F459770D7FFAB40A38219 /* Pods_YFOCTool_YFOCToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D23241A128D694FD998740 /* Pods_YFOCTool_YFOCToolUITests.framework */; };
-		D21B10AF1D5DDD5EFB21260B /* Pods_YFOCToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BED2B2A391507E0B0F1F713 /* Pods_YFOCToolTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BED2B2A391507E0B0F1F713 /* Pods_YFOCToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFOCToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18779243259B238B00FE0E58 /* YFCustomNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFCustomNavController.h; sourceTree = "<group>"; };
+		18779244259B238B00FE0E58 /* YFCustomNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFCustomNavController.m; sourceTree = "<group>"; };
 		1880BA712546B307009577DC /* YFOCTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFOCTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880BA742546B307009577DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1880BA752546B307009577DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,14 +66,17 @@
 		1899FB0A256368CA00169E77 /* YFTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTools.m; sourceTree = "<group>"; };
 		1899FB122563701F00169E77 /* YFDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFDeviceInfo.h; sourceTree = "<group>"; };
 		1899FB132563701F00169E77 /* YFDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFDeviceInfo.m; sourceTree = "<group>"; };
-		19D23241A128D694FD998740 /* Pods_YFOCTool_YFOCToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFOCTool_YFOCToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		189D237B2626815F008E29A9 /* YFLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLogic.h; sourceTree = "<group>"; };
+		189D237C2626815F008E29A9 /* YFLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLogic.m; sourceTree = "<group>"; };
+		18A4E7DE2567623A00817FFE /* UILabel+JXCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JXCustomLabel.m"; sourceTree = "<group>"; };
+		18A4E7DF2567623A00817FFE /* UIView+JXCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXCustomView.h"; sourceTree = "<group>"; };
+		18A4E7E02567623A00817FFE /* UIButton+JXCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JXCustomButton.m"; sourceTree = "<group>"; };
+		18A4E7E12567623A00817FFE /* UILabel+JXCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JXCustomLabel.h"; sourceTree = "<group>"; };
+		18A4E7E22567623A00817FFE /* UIButton+JXCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JXCustomButton.h"; sourceTree = "<group>"; };
+		18A4E7E32567623A00817FFE /* UIView+JXCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXCustomView.m"; sourceTree = "<group>"; };
 		25468DD4FE66B2C37C7EE588 /* Pods-YFOCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCTool.release.xcconfig"; path = "Target Support Files/Pods-YFOCTool/Pods-YFOCTool.release.xcconfig"; sourceTree = "<group>"; };
-		30866802382B47AA3E1EC388 /* Pods-YFOCToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCToolTests.debug.xcconfig"; path = "Target Support Files/Pods-YFOCToolTests/Pods-YFOCToolTests.debug.xcconfig"; sourceTree = "<group>"; };
-		54B9E6B62677B43B61FA05A1 /* Pods-YFOCTool-YFOCToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCTool-YFOCToolUITests.debug.xcconfig"; path = "Target Support Files/Pods-YFOCTool-YFOCToolUITests/Pods-YFOCTool-YFOCToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		62919EF5EC17D457F5E12A8E /* Pods-YFOCTool-YFOCToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCTool-YFOCToolUITests.release.xcconfig"; path = "Target Support Files/Pods-YFOCTool-YFOCToolUITests/Pods-YFOCTool-YFOCToolUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71C0745C00AEDDC8BE377513 /* Pods_YFOCTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFOCTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEFA6A4C2CEF129B2C26321 /* Pods-YFOCTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCTool.debug.xcconfig"; path = "Target Support Files/Pods-YFOCTool/Pods-YFOCTool.debug.xcconfig"; sourceTree = "<group>"; };
-		EFE01B1FFADD4E46B05EFFDD /* Pods-YFOCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFOCToolTests.release.xcconfig"; path = "Target Support Files/Pods-YFOCToolTests/Pods-YFOCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21B10AF1D5DDD5EFB21260B /* Pods_YFOCToolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00F459770D7FFAB40A38219 /* Pods_YFOCTool_YFOCToolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +135,8 @@
 				1880BA752546B307009577DC /* AppDelegate.m */,
 				1880BA7A2546B307009577DC /* ViewController.h */,
 				1880BA7B2546B307009577DC /* ViewController.m */,
+				18779243259B238B00FE0E58 /* YFCustomNavController.h */,
+				18779244259B238B00FE0E58 /* YFCustomNavController.m */,
 				1899FB0825635ECC00169E77 /* PrefixHeader.pch */,
 				1880BA7D2546B307009577DC /* Main.storyboard */,
 				1880BA802546B30B009577DC /* Assets.xcassets */,
@@ -161,20 +168,34 @@
 		1899FB0725635E5300169E77 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				18A4E7DD2567623900817FFE /* CustomUI(UI控件) */,
 				1899FB09256368CA00169E77 /* YFTools.h */,
 				1899FB0A256368CA00169E77 /* YFTools.m */,
 				1899FB122563701F00169E77 /* YFDeviceInfo.h */,
 				1899FB132563701F00169E77 /* YFDeviceInfo.m */,
+				189D237B2626815F008E29A9 /* YFLogic.h */,
+				189D237C2626815F008E29A9 /* YFLogic.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		18A4E7DD2567623900817FFE /* CustomUI(UI控件) */ = {
+			isa = PBXGroup;
+			children = (
+				18A4E7DE2567623A00817FFE /* UILabel+JXCustomLabel.m */,
+				18A4E7DF2567623A00817FFE /* UIView+JXCustomView.h */,
+				18A4E7E02567623A00817FFE /* UIButton+JXCustomButton.m */,
+				18A4E7E12567623A00817FFE /* UILabel+JXCustomLabel.h */,
+				18A4E7E22567623A00817FFE /* UIButton+JXCustomButton.h */,
+				18A4E7E32567623A00817FFE /* UIView+JXCustomView.m */,
+			);
+			path = "CustomUI(UI控件)";
 			sourceTree = "<group>";
 		};
 		8134E5CF1E18DB811AD50D3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				71C0745C00AEDDC8BE377513 /* Pods_YFOCTool.framework */,
-				19D23241A128D694FD998740 /* Pods_YFOCTool_YFOCToolUITests.framework */,
-				0BED2B2A391507E0B0F1F713 /* Pods_YFOCToolTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,10 +205,6 @@
 			children = (
 				CCEFA6A4C2CEF129B2C26321 /* Pods-YFOCTool.debug.xcconfig */,
 				25468DD4FE66B2C37C7EE588 /* Pods-YFOCTool.release.xcconfig */,
-				54B9E6B62677B43B61FA05A1 /* Pods-YFOCTool-YFOCToolUITests.debug.xcconfig */,
-				62919EF5EC17D457F5E12A8E /* Pods-YFOCTool-YFOCToolUITests.release.xcconfig */,
-				30866802382B47AA3E1EC388 /* Pods-YFOCToolTests.debug.xcconfig */,
-				EFE01B1FFADD4E46B05EFFDD /* Pods-YFOCToolTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -218,7 +235,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1880BAA32546B30B009577DC /* Build configuration list for PBXNativeTarget "YFOCToolTests" */;
 			buildPhases = (
-				B806F248E8E3D776B7583CFF /* [CP] Check Pods Manifest.lock */,
 				1880BA882546B30B009577DC /* Sources */,
 				1880BA892546B30B009577DC /* Frameworks */,
 				1880BA8A2546B30B009577DC /* Resources */,
@@ -237,11 +253,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1880BAA62546B30B009577DC /* Build configuration list for PBXNativeTarget "YFOCToolUITests" */;
 			buildPhases = (
-				FC15695C8427F0C5473A9C41 /* [CP] Check Pods Manifest.lock */,
 				1880BA932546B30B009577DC /* Sources */,
 				1880BA942546B30B009577DC /* Frameworks */,
 				1880BA952546B30B009577DC /* Resources */,
-				5DB1037555C5E7F791C95204 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -346,45 +360,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DB1037555C5E7F791C95204 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YFOCTool-YFOCToolUITests/Pods-YFOCTool-YFOCToolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YFOCTool-YFOCToolUITests/Pods-YFOCTool-YFOCToolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YFOCTool-YFOCToolUITests/Pods-YFOCTool-YFOCToolUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B806F248E8E3D776B7583CFF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YFOCToolTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F0CAAC5B7488ED19FE6B37A3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,28 +377,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YFOCTool/Pods-YFOCTool-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC15695C8427F0C5473A9C41 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YFOCTool-YFOCToolUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -432,10 +385,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1899FB142563701F00169E77 /* YFDeviceInfo.m in Sources */,
+				189D237D2626815F008E29A9 /* YFLogic.m in Sources */,
 				1899FB0B256368CA00169E77 /* YFTools.m in Sources */,
 				1880BA7C2546B307009577DC /* ViewController.m in Sources */,
+				18A4E7E52567623A00817FFE /* UIButton+JXCustomButton.m in Sources */,
+				18A4E7E62567623A00817FFE /* UIView+JXCustomView.m in Sources */,
 				1880BA762546B307009577DC /* AppDelegate.m in Sources */,
+				18A4E7E42567623A00817FFE /* UILabel+JXCustomLabel.m in Sources */,
 				1880BA872546B30B009577DC /* main.m in Sources */,
+				18779245259B238B00FE0E58 /* YFCustomNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +568,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46A9UGHB7S;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YFOCTool/PrefixHeader.pch";
 				INFOPLIST_FILE = YFOCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -629,6 +591,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46A9UGHB7S;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YFOCTool/PrefixHeader.pch";
 				INFOPLIST_FILE = YFOCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -642,7 +608,6 @@
 		};
 		1880BAA42546B30B009577DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30866802382B47AA3E1EC388 /* Pods-YFOCToolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -662,7 +627,6 @@
 		};
 		1880BAA52546B30B009577DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE01B1FFADD4E46B05EFFDD /* Pods-YFOCToolTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -682,7 +646,6 @@
 		};
 		1880BAA72546B30B009577DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B9E6B62677B43B61FA05A1 /* Pods-YFOCTool-YFOCToolUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YFOCToolUITests/Info.plist;
@@ -700,7 +663,6 @@
 		};
 		1880BAA82546B30B009577DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62919EF5EC17D457F5E12A8E /* Pods-YFOCTool-YFOCToolUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YFOCToolUITests/Info.plist;

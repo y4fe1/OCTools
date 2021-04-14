@@ -116,6 +116,11 @@ THE SOFTWARE.
 
 
 
+## TXLiteAVSDK_Professional
+
+copyright 2017 tencent Ltd. All rights reserved.
+
+
 ## YYText
 
 The MIT License (MIT)

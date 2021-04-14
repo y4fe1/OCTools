@@ -8,12 +8,20 @@
 #import "ViewController.h"
 #import <UIImageView+WebCache.h>
 #import "YFDeviceInfo.h"
+#import <TXBeautyManager.h>
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+    ViewController *vc = [ViewController new];
+    [self.navigationController pushViewController:vc animated:true];
+    UIStackView *sView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,6 +34,25 @@
     
     YFDeviceInfo *ids = [YFDeviceInfo new];
     YFDeviceInfo *ids3 = [ids copy];
+    
+    NSArray *arr = @[@"2",@"5",@"4",@"3",@"1",];
+    arr = [arr sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        
+        if ([obj1 integerValue] > [obj2 integerValue]) {
+            return NSOrderedDescending;
+        } else if ([obj1 integerValue] == [obj2 integerValue]) {
+            return NSOrderedSame;
+        }else{
+            return NSOrderedAscending;
+        }
+        
+    }];
+    NSLog(@"");
+    
+    NSLog(@"%@",arr);
+    
+    
+//    [arr sortedArrayUsingSelector:<#(nonnull SEL)#>];
 }
 
 

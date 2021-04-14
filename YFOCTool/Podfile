@@ -11,16 +11,11 @@ target 'YFOCTool' do
 	pod 'MJExtension', ’3.2.2‘
 	pod 'Masonry', '~> 1.1.0'
 	pod 'YYText', '~> 1.0.7'
+  
+    pod 'TXLiteAVSDK_Professional', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec'
 
-  # Pods for YFOCTool
+  
 
-  target 'YFOCToolTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'YFOCToolUITests' do
-    # Pods for testing
-  end
+  
 
 end
